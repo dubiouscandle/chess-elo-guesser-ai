@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Analysis</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/chessground@8.4.0/assets/chessground.base.css"/>
+    <link rel="stylesheet"
+          href="https://unpkg.com/chessground@8.4.0/assets/chessground.cburnett.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/chessground@8.4.0/assets/chessground.brown.css"/>
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+</head>
+<body>
+
+<div class="main-container analysis-layout">
+    <header class="compact-header">
+        <div class="header-row">
+            <a href="javascript:void(0)" onclick="window.AndroidAnalysis.closeActivity()"
+               class="back-btn">
+                <i class="bi bi-arrow-left"></i>
+            </a>
+            <h1>Analysis</h1>
+        </div>
+    </header>
+
+    <div id="analysis-content">
+        <div class="card board-card">
+            <div id="board-container">
+                <div id="board" class="is2d"></div>
+            </div>
+
+            <div class="controls-row">
+                <span id="move-counter">Start</span>
+                <div class="control-buttons">
+                    <button class="btn-icon" id="start-btn"><i class="bi bi-skip-start-fill"></i>
+                    </button>
+                    <button class="btn-icon" id="prev-btn"><i class="bi bi-caret-left-fill"></i>
+                    </button>
+                    <button class="btn-icon" id="next-btn"><i class="bi bi-caret-right-fill"></i>
+                    </button>
+                    <button class="btn-icon" id="end-btn"><i class="bi bi-skip-end-fill"></i>
+                    </button>
+                    <button class="btn-icon secondary" id="flip-btn"><i
+                            class="bi bi-arrow-repeat"></i></button>
+                </div>
+            </div>
+        </div>
+<br>
+        <div class="card charts-card">
+            <div class="chart-wrapper">
+                <canvas id="white-chart"></canvas>
+            </div>
+            <div class="chart-wrapper">
+                <canvas id="black-chart"></canvas>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+</div>
+<script src="analysis.js"></script>
+</body>
+</html>

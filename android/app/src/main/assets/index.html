@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<script src="script.js"></script>
+
+<body>
+
+<div class="main-container">
+    <header>
+        <div class="icon">♟️</div>
+        <h1>Chess Elo Guesser</h1>
+        <p>It guesses elo and stuff</p>
+    </header>
+
+    <div class="card">
+        <h2>Import from Lichess</h2>
+        <div class="input-group">
+            <label for="lichess-id">Game Link or ID</label>
+            <input type="text" id="lichess-id" placeholder="e.g. rikcoedq in lichess.org/rikcoedq/black">
+        </div>
+        <button class="btn-primary">Load Game</button>
+    </div>
+    <div id="import-alerts"></div>
+    <div class="divider">
+        <span>OR</span>
+    </div>
+
+    <div class="card">
+        <h2>Paste PGN</h2>
+        <div class="input-group">
+            <label for="pgn-input">PGN Data</label>
+            <textarea style="resize: none;" id="pgn-input" rows="5" placeholder="e.g. 1. e4 e5 2. Nf3..."></textarea>
+        </div>
+        <button class="btn-secondary">Analyze PGN</button>
+    </div>
+    <div id="pgn-alerts"></div>
+    <div class="footer-link">
+        <a href="lazyness.html" target="_blank">
+            Learn more &rarr;
+        </a>
+    </div>
+
+</div>
+
+</body>
+</html>

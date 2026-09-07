@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="PROJECT" libraries="{@chrisoakman/chessboardjs, bootstrap-icons, bootswatch, chart.js, chess.js, chessground, chessground.base, chessground.brown, chessground.cburnett, font-awesome, jquery-3.5.1, jquery-3.6.4, mathjax}" />
+  </component>
+</project>

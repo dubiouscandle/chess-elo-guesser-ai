@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="deb2931d-fefd-4e2a-b738-6ff5438f420c" name="Changes" comment="rewording">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/static/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="30AgX5ZEsAxkAO0xKr576DIV6x1" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.setup.js.executor&quot;: &quot;Run&quot;,
+    &quot;Python.data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.e.executor&quot;: &quot;Run&quot;,
+    &quot;Python.inference_on_console.executor&quot;: &quot;Run&quot;,
+    &quot;Python.info.executor&quot;: &quot;Run&quot;,
+    &quot;Python.model_def.executor&quot;: &quot;Run&quot;,
+    &quot;Python.net.executor&quot;: &quot;Run&quot;,
+    &quot;Python.secondary_train.executor&quot;: &quot;Run&quot;,
+    &quot;Python.server.executor&quot;: &quot;Run&quot;,
+    &quot;Python.stat_tests.executor&quot;: &quot;Run&quot;,
+    &quot;Python.train.executor&quot;: &quot;Run&quot;,
+    &quot;Python.training.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/gavin/Desktop/CEG/Frontend/static&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/snap/webstorm/497/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Frontend/static" />
+      <recent name="$PROJECT_DIR$/Python" />
+      <recent name="$PROJECT_DIR$/Frontend/static/pieces" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/Python" />
+      <recent name="$PROJECT_DIR$/Frontend/static" />
+      <recent name="$PROJECT_DIR$/Frontend" />
+      <recent name="$PROJECT_DIR$/Python/pipeline" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="CEG" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-WS-251.27812.50" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="project-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="deb2931d-fefd-4e2a-b738-6ff5438f420c" name="Changes" comment="" />
+      <created>1750902731373</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750902731373</updated>
+      <workItem from="1753138738949" duration="8258000" />
+      <workItem from="1753904579917" duration="8534000" />
+      <workItem from="1753917240666" duration="19619000" />
+      <workItem from="1753986738705" duration="204000" />
+      <workItem from="1753987602205" duration="17697000" />
+      <workItem from="1754271070361" duration="603000" />
+      <workItem from="1754355676670" duration="4528000" />
+      <workItem from="1754419734221" duration="4406000" />
+      <workItem from="1754453128452" duration="4643000" />
+      <workItem from="1754500633553" duration="1726000" />
+      <workItem from="1754535920069" duration="2707000" />
+      <workItem from="1754593426781" duration="332000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1754445218021</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1754445218021</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial Commit">
+      <option name="closed" value="true" />
+      <created>1754446997236</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1754446997236</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Requirements">
+      <option name="closed" value="true" />
+      <created>1754449009363</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1754449009363</updated>
+    </task>
+    <task id="LOCAL-00004" summary="server">
+      <option name="closed" value="true" />
+      <created>1754449935760</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1754449935760</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Changed some text">
+      <option name="closed" value="true" />
+      <created>1754502383483</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1754502383483</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update requirements.txt">
+      <option name="closed" value="true" />
+      <created>1754508317620</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1754508317620</updated>
+    </task>
+    <task id="LOCAL-00007" summary="text">
+      <option name="closed" value="true" />
+      <created>1754510550498</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1754510550498</updated>
+    </task>
+    <task id="LOCAL-00008" summary="make server work">
+      <option name="closed" value="true" />
+      <created>1754511594456</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1754511594456</updated>
+    </task>
+    <task id="LOCAL-00009" summary="changed some text">
+      <option name="closed" value="true" />
+      <created>1754513582642</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1754513582642</updated>
+    </task>
+    <task id="LOCAL-00010" summary="changed some text">
+      <option name="closed" value="true" />
+      <created>1754513598746</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1754513598746</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Reorganization">
+      <option name="closed" value="true" />
+      <created>1754535069392</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1754535069392</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Reorganization">
+      <option name="closed" value="true" />
+      <created>1754535399597</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1754535399597</updated>
+    </task>
+    <task id="LOCAL-00013" summary="aesthetics">
+      <option name="closed" value="true" />
+      <created>1754537159804</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1754537159804</updated>
+    </task>
+    <task id="LOCAL-00014" summary="wording">
+      <option name="closed" value="true" />
+      <created>1754538066856</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1754538066856</updated>
+    </task>
+    <task id="LOCAL-00015" summary="rewording">
+      <option name="closed" value="true" />
+      <created>1754540740086</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1754540740086</updated>
+    </task>
+    <task id="LOCAL-00016" summary="create robot.txt">
+      <option name="closed" value="true" />
+      <created>1754593476687</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1754593476687</updated>
+    </task>
+    <task id="LOCAL-00017" summary="rewording">
+      <option name="closed" value="true" />
+      <created>1754593552836</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1754593552836</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/DataParsing" />
+      <path value="$PROJECT_DIR$/Frontend" />
+      <path value="$PROJECT_DIR$/Python" />
+    </ignored-roots>
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="Requirements" />
+    <MESSAGE value="server" />
+    <MESSAGE value="Changed some text" />
+    <MESSAGE value="update requirements.txt" />
+    <MESSAGE value="make server work" />
+    <MESSAGE value="changed some text" />
+    <MESSAGE value="text" />
+    <MESSAGE value="Reorganization" />
+    <MESSAGE value="aesthetics" />
+    <MESSAGE value="wording" />
+    <MESSAGE value="create robot.txt" />
+    <MESSAGE value="rewording" />
+    <option name="LAST_COMMIT_MESSAGE" value="rewording" />
+  </component>
+</project>

@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@chrisoakman/chessboardjs": "^1.0.0",
+    "@lichess-org/chessground": "^9.4.0"
+  },
+  "name": "ceg",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
