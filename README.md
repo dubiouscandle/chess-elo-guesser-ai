@@ -33,11 +33,19 @@ Adding the actual board representation made a pretty big difference.
 
 The board then goes through a CNN which turns each position into a vector.
 
-From there, the game is passed through LSTMs. White and Black are separated before the LSTM so that each model is looking at the moves made by that player rather than treating the entire game as one sequence.
+From there, the game is passed through LSTMs. I split the sequence by player before giving it to the LSTM.
+
+For example, if the game positions are represented as [1, 2, 3, 4], where each number represents the position after a move, White gets [1, 3] and Black gets [2, 4].
+
+This mattered because a single LSTM looking at the whole game didn't know which parts of the sequence belonged to which player. In an asymmetric game, such as a 900-rated player playing a 2000-rated player, the single model could end up predicting something around 1900 for both players.
+
+Splitting the sequences means each player's prediction is based on the positions and moves associated with that player.
 
 This ended up working much better than feeding the whole game into one sequence. When I did that, the model had a tendency to predict roughly the same rating for both players, which made sense given how the dataset was distributed.
 
-The final output is a probability distribution over 100-Elo rating ranges.
+The final output is a probability distribution over 100-Elo rating ranges, starting at 400–500 and going up through roughly 2900–3200.
+
+This gives the model around 28 discrete rating ranges to distribute its probability across.
 
 ## Why a probability distribution?
 
@@ -76,6 +84,10 @@ Splitting the sequence by player fixed a lot of that.
 Model size was another fun one.
 
 I basically tried making the models as large as I could fit into VRAM, and then started making them smaller when that somehow made the results better. The largest model was not necessarily the best model. Some of the bigger ones would overfit openings or just drift towards predicting something close to the dataset average.
+
+I also had a hypothesis for why some of the oversized models started doing this. My guess was that the training signal was becoming too diluted by the time it propagated back through the network to the earlier layers.
+
+I didn't formally prove that this was what was happening, so this is just my interpretation of the behavior I was seeing. But it would explain why making the model larger could actually make the useful signal harder for the earlier parts of the network to learn.
 
 I didn't do a proper automated hyperparameter search. Most of the choices were made manually based on what I could fit into memory and what seemed to improve the results. I also tended to use convenient sizes like powers of two because, well, they were convenient.
 
