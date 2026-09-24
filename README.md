@@ -125,7 +125,8 @@ Loss is y-axis, thousand batches is x-axis.
 
 I also made a small web app for the project.
 
-The backend was Flask, and I hosted it on AWS using the free credit that was available to me. It ended up running for around six months before I took it down.
+~~The backend was Flask, and I hosted it on AWS using the free credit that was available to me. It ended up running for around six months before I took it down.~~
+EDIT: As of september 2026, I got some more money so it is back up and running.
 
 My school eventually blocked the domain anyway, so that whole thing was kind of pointless.
 
