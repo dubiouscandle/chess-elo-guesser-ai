@@ -89,7 +89,7 @@ I also had a hypothesis for why some of the oversized models started doing this.
 
 I didn't formally prove that this was what was happening, so this is just my interpretation of the behavior I was seeing. But it would explain why making the model larger could actually make the useful signal harder for the earlier parts of the network to learn.
 
-I didn't do a proper automated hyperparameter search. Most of the choices were made manually based on what I could fit into memory and what seemed to improve the results. I also tended to use convenient sizes like powers of two because, well, they were convenient.
+I didn't do a proper automated hyperparameter search. Most of the choices were made manually based on what I could fit into memory and what seemed to improve the results. I also tended to use convenient sizes like powers of two.
 
 ## The data
 
