@@ -209,5 +209,3 @@ Some of them really didn't.
 But eventually I ended up with a model that can look at a chess game and make a somewhat reasonable estimate of the players' ratings while showing how that estimate changes throughout the game.
 
 That's basically what I wanted when I started this project, even if I had absolutely no idea what I was getting myself into.
-
-What a great summer.
