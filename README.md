@@ -134,8 +134,6 @@ The frontend is basic HTML and JavaScript. I also used a JavaScript library to c
 
 None of this was chosen because it was some carefully designed architecture. I mostly picked whatever let me get the thing working without making my life even worse.
 
-I also vibecoded a decent amount of the frontend.
-
 ## Android version
 
 There is also an Android version of the project.
