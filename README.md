@@ -18,10 +18,6 @@ On 10,000 unseen games with more than 30 half-moves:
 | RMSE  | 277 Elo | 267 Elo | 286 Elo |
 | MAE | 200 Elo | 196 Elo | 205 Elo |
 
-| MAE (Combined) | 277 Elo |
-| MAE | 277 Elo |
-| MAE | 277 Elo |
-
 The model isn't remotely perfect, but it can learn a pretty strong relationship between the moves in a game and the rating of the player making them.
 
 The predictions are also made throughout the game rather than only once at the end.
