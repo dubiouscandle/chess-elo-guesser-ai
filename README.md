@@ -209,22 +209,23 @@ That's basically what I wanted when I started this project, even if I had absolu
 
 ## Acknowledgements
 All licenses are in /licenses
-Names of stuff I used:
-Chessground   
-Flask   
-Flask-CORS   
-Flask-Limiter   
-Font-Awesome   
-MathJax   
-NumPy   
-PyTorch  
-SciPy  
-boostrap 
-boostrap-icons 
-chart.js 
-chess.js  
-chesslib  
-msgpack-java
-msgpack-python 
-python-chess  
-zstd-jni   
+* Names of stuff I used:
+* Chessground   
+* Flask   
+* Flask-CORS   
+* Flask-Limiter   
+* Font-Awesome   
+* MathJax   
+* NumPy   
+* PyTorch  
+* SciPy  
+* boostrap 
+* boostrap-icons 
+* chart.js 
+* chess.js  
+* chesslib  
+* msgpack-java
+* msgpack-python 
+* python-chess  
+* zstd-jni   
+**All licences are in /licenses**
