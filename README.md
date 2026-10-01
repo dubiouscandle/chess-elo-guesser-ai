@@ -112,7 +112,7 @@ So if parts of the data pipeline look slightly cursed, that's probably why.
 
 The final evaluation was done on 10,000 games that the model had not seen during training, with each game having more than 30 half-moves.
 
-The model achieved an R² of 0.86 and an RMSE of 277 Elo.
+The model achieved an R² of 0.85 and an RMSE of 277 Elo.
 
 ![Example output](img.png)
 
