@@ -22,7 +22,7 @@ On 27,000 unseen games with more than 30 half-moves:
 <img alt="image" src="https://github.com/dubiouscandle/chess-elo-guesser-ai/blob/main/Python/predictions_vs_truth.png" />
 
 > **Note:** The train/test split was performed at the game level, so players may appear in both sets. Therefore this evaluation measures generalization to unseen games, not necessarily unseen players.
-> Full results are in [stat_data_cleaned](https://github.com/dubiouscandle/chess-elo-guesser-ai/blob/main/Python/stat_data_cleaned)
+> Exact numbers are in [stat_data_cleaned](https://github.com/dubiouscandle/chess-elo-guesser-ai/blob/main/Python/stat_data_cleaned).
 
 The model tends to slightly over-predict lower ratings and under-predict extreme highs (forming the wider spread around the edges).
 
