@@ -208,8 +208,6 @@ But eventually I ended up with a model that can look at a chess game and make a 
 That's basically what I wanted when I started this project, even if I had absolutely no idea what I was getting myself into.
 
 ## Acknowledgements
-All licenses are in /licenses
-* Names of stuff I used:
 * Chessground   
 * Flask   
 * Flask-CORS   
@@ -227,5 +225,6 @@ All licenses are in /licenses
 * msgpack-java
 * msgpack-python 
 * python-chess  
-* zstd-jni   
+* zstd-jni
+  
 **All licences are in /licenses**
