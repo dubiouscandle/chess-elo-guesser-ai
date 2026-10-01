@@ -10,19 +10,26 @@ But it eventually got to a point where it was actually pretty good, so here it i
 
 ## Results
 
-On 1,000 unseen games with more than 30 half-moves:
+On 27,000 unseen games with more than 30 half-moves:
 
 | Metric | Result (Combined) | Result (White) | Result (Black) |
 |---|---|---|---:|
-| R² | 0.85 | 0.86 | 0.84 |
-| RMSE  | 277 Elo | 267 Elo | 286 Elo |
-| MAE | 200 Elo | 196 Elo | 205 Elo |
+| R² | 0.84 | 0.84 | 0.84 |
+| RMSE  | 307.71 Elo | 309.26 Elo | 306.15 Elo |
+| RMSE (1% Trim) | 277.44 Elo | 278.86 Elo | 276.02 Elo |
+| MAE | 221.64 Elo | 222.60 Elo | 220.68 Elo |
 
-Note: The train/test split was performed at the game level, so players may appear in both sets. Therefore this evaluation measures generalization to unseen games, not necessarily unseen players
+<img alt="image" src="https://github.com/dubiouscandle/chess-elo-guesser-ai/blob/main/Python/predictions_vs_truth.png" />
+
+> **Note:** The train/test split was performed at the game level, so players may appear in both sets. Therefore this evaluation measures generalization to unseen games, not necessarily unseen players.
+
+The model tends to slightly over-predict lower ratings and under-predict extreme highs (forming the wider spread around the edges).
+
+Despite the noise of single-game evaluations, the dense central cluster tracks closely along the ideal y = x line, showing the model successfully learned a strong baseline correlation between move quality and player rating.
 
 The model isn't remotely perfect, but it can learn a pretty strong relationship between the moves in a game and the rating of the player making them.
 
-The predictions are also made throughout the game rather than only once at the end.
+The predictions are also made throughout the game rather than only once at the end. With that said, the last prediction the model made is used for result purposes.
 
 ## How it works
 
@@ -110,28 +117,11 @@ At one point I also lost several hours to AMD GPU driver problems.
 
 So if parts of the data pipeline look slightly cursed, that's probably why.
 
-## Evaluation
-
-The final evaluation was done on 10,000 games that the model had not seen during training, with each game having more than 30 half-moves.
-
-The model achieved an R² of 0.85 and an RMSE of 277 Elo.
-
-![Example output](img.png)
-
-Truth is y-axis, prediction is x-axis.
-
-![Example output](img_1.png)
-
-Loss is y-axis, thousand batches is x-axis.
-
 ## The web app
 
-I also made a small web app for the project.
+I also made a small web app for the project. It is working as of September 2026.
 
-~~The backend was Flask, and I hosted it on AWS using the free credit that was available to me. It ended up running for around six months before I took it down.~~
-EDIT: As of september 2026, I got some more money so it is back up and running.
-
-My school eventually blocked the domain anyway, so that whole thing was kind of pointless.
+My school blocked the domain anyway, so that whole thing was kind of pointless.
 
 The frontend is basic HTML and JavaScript. I also used a JavaScript library to call Kotlin functions, and a Kotlin library to load and run the PyTorch models.
 
