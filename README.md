@@ -189,7 +189,7 @@ If you want to poke around in the meantime, here is where the most important stu
 
 [Data Parsing (Kotlin)](https://github.com/dubiouscandle/chess-elo-guesser-ai/blob/main/DataParsing/src/main/kotlin/Main.kt): Parses the .pgn.zst files into a usable format (msgpack)
 
-[Model & Training](https://github.com/dubiouscandle/chess-elo-guesser-ai/tree/main/Python/main) This directory contains the architecture (net.py), the dataset loading logic (data.py), and the training loop (train.py)
+[Model & Training](https://github.com/dubiouscandle/chess-elo-guesser-ai/tree/main/Python/main): This directory contains the architecture (net.py), the dataset loading logic (data.py), and the training loop (train.py)
 
 ## Final thoughts
 
