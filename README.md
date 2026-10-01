@@ -119,7 +119,9 @@ So if parts of the data pipeline look slightly cursed, that's probably why.
 
 ## The web app
 
-I also made a small web app for the project. It is working as of September 2026.
+I also made a small web app for the project. It is working as of September 2026. 
+
+Link: https://elo-guesser.dubiouscandle.com/
 
 My school blocked the domain anyway, so that whole thing was kind of pointless.
 
@@ -180,6 +182,14 @@ Reproducing the exact training run isn't currently as simple as cloning the repo
 The dataset is large, the preprocessing pipeline went through several iterations, and some of the original experiments were done before I started organizing the project properly.
 
 The code and models in this repository are mainly here to document what I built and how the final system works.
+
+The setup is pretty rough right now, but if there’s enough interest or people actually want to run this themselves, I’ll take the time to clean it up and add a proper one-click setup script.
+
+If you want to poke around in the meantime, here is where the most important stuff lives:
+
+[Data Parsing (Kotlin)](https://github.com/dubiouscandle/chess-elo-guesser-ai/blob/main/DataParsing/src/main/kotlin/Main.kt): Parses the .pgn.zst files into a usable format (msgpack)
+
+[Model & Training](https://github.com/dubiouscandle/chess-elo-guesser-ai/tree/main/Python/main) This directory contains the architecture (net.py), the dataset loading logic (data.py), and the training loop (train.py)
 
 ## Final thoughts
 
