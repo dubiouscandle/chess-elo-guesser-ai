@@ -10,7 +10,7 @@ But it eventually got to a point where it was actually pretty good, so here it i
 
 ## Results
 
-On 1000 unseen games with more than 30 half-moves:
+On 1,000 unseen games with more than 30 half-moves:
 
 | Metric | Result (Combined) | Result (White) | Result (Black) |
 |---|---|---|---:|
