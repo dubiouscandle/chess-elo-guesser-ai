@@ -159,11 +159,7 @@ If I were starting this project again, I would probably spend much more time pla
 
 A lot of the early work was basically me trying things without really knowing where the project was going.
 
-I also would have logged my experiments properly.
-
-I didn't keep a perfect record of every model configuration and result. A lot of the information is still sitting around on my computer, but there isn't a beautiful Git history showing every step of the project.
-
-I also wouldn't have tried to make the models as large as possible at the beginning. Bigger models were not automatically better, and in some cases they were much worse.
+I also would have logged my experiments properly. I didn't keep a perfect record of every model configuration and result. A lot of the information is still sitting around on my computer, but there isn't a complete development history showing every step of the project.
 
 And I would definitely sort out the data format earlier. A ridiculous amount of time went into making the dataset fit in RAM.
 
