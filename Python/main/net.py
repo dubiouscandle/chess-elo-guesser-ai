@@ -2,7 +2,7 @@ import torch
 from torch import nn, Tensor, log_softmax
 from torch.nn.utils.rnn import pack_padded_sequence, pad_packed_sequence
 
-from Python.main import data
+from main import data
 
 
 class Model(nn.Module):

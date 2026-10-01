@@ -4,8 +4,8 @@ from torch.optim import AdamW
 from torch.optim.lr_scheduler import ReduceLROnPlateau
 from torch.utils.data import Subset, DataLoader
 
-from Python.main.data import get_data_sets, collate_fn
-from Python.main.net import Model
+from main.data import get_data_sets, collate_fn
+from main.net import Model
 
 if __name__ == "__main__":
     torch.backends.cudnn.deterministic = True
