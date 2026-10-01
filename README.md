@@ -206,3 +206,25 @@ Some of them really didn't.
 But eventually I ended up with a model that can look at a chess game and make a somewhat reasonable estimate of the players' ratings while showing how that estimate changes throughout the game.
 
 That's basically what I wanted when I started this project, even if I had absolutely no idea what I was getting myself into.
+
+## Acknowledgements
+All licenses are in /licenses
+Names of stuff I used:
+Chessground   
+Flask   
+Flask-CORS   
+Flask-Limiter   
+Font-Awesome   
+MathJax   
+NumPy   
+PyTorch  
+SciPy  
+boostrap 
+boostrap-icons 
+chart.js 
+chess.js  
+chesslib  
+msgpack-java
+msgpack-python 
+python-chess  
+zstd-jni   
