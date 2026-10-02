@@ -65,8 +65,8 @@ This gives the model around 28 discrete rating ranges to distribute its probabil
 
 ## Model Input Philosophy
 
-* **No Stockfish / Centipawn Loss:** High-Elo moves aren't always top engine moves, and low-Elo games aren't just random bad moves. They have distinct patterns (missing hanging pieces, weird pawn storms, uncoordinated pieces, or clean endgame technique). I wanted the network to learn what a 700 or an 1800 looks like from the board alone, not rely on an external engine to score move quality.
-* **No Clock Times:** I wanted to mimic the experience of Gotham Chess's Guess the Elo series. Also, because the model only requires raw board states and move coordinates, it works on any standard PGN file, including games transcribed from over-the-board play where clock data does not exist.
+**No Stockfish / Centipawn Loss:** High-Elo moves aren't always top engine moves, and low-Elo games aren't just random bad moves. They have distinct patterns (missing hanging pieces, weird pawn storms, uncoordinated pieces, or clean endgame technique). I wanted the network to learn what a 700 or an 1800 looks like from the board alone, not rely on an external engine to score move quality.
+**No Clock Times:** I wanted to mimic the experience of Gotham Chess's Guess the Elo series. Also, because the model only requires raw board states and move coordinates, it works on any standard PGN file, including games transcribed from over-the-board play where clock data does not exist.
 
 ## Why a probability distribution?
 
