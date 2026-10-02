@@ -22,12 +22,14 @@ On 27,000 unseen games with more than 30 half-moves:
 | RMSE (1% Trim) | 277.44 Elo | 278.86 Elo | 276.02 Elo |
 | MAE | 221.64 Elo | 222.60 Elo | 220.68 Elo |
 
-<img alt="image" src="https://github.com/dubiouscandle/chess-elo-guesser-ai/blob/main/Python/predictions_vs_truth.png" />
+<img alt="image" src="Python/parity_plot.png" />
 
 > **Note:** The train/test split was performed at the game level, so players may appear in both sets. Therefore this evaluation measures generalization to unseen games, not necessarily unseen players.
 > Exact numbers are in [stat_data_cleaned](https://github.com/dubiouscandle/chess-elo-guesser-ai/blob/main/Python/stat_data_cleaned).
 
-The model tends to slightly over-predict lower ratings and under-predict extreme highs (forming the wider spread around the edges).
+The model tends to systematically over-predict ratings, while under-predicting extreme highs. 
+
+I hypothesize that the reason this effect is greatest near the 400 to 700 Elo range is due to smurfing, but this remains to be proven formally. (Smurfing is when a higher rated player plays on a lower rated account).
 
 Despite the noise of single-game evaluations, the dense central cluster tracks closely along the ideal y = x line, showing the model successfully learned a strong baseline correlation between move quality and player rating.
 
