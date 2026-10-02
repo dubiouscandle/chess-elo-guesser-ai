@@ -8,8 +8,8 @@ The project ended up becoming a lot bigger and messier than I originally planned
 
 But it eventually got to a point where it was actually pretty good, so here it is.
 
-<video src="https://github.com/dubiouscandle/chess-elo-guesser-ai/raw/main/CEG_DEMO_2x.mp4" autoplay loop muted playsinline width="100%">
-</video>
+![Chess Elo Guesser Demo](CEG_DEMO.gif)
+> Game: https://lichess.org/mDrIc2eE
 
 ## Results
 
