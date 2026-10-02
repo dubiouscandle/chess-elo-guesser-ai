@@ -9,7 +9,7 @@ The project ended up becoming a lot bigger and messier than I originally planned
 But it eventually got to a point where it was actually pretty good, so here it is.
 
 ![Chess Elo Guesser Demo](CEG_DEMO.gif)
-> Game: https://lichess.org/mDrIc2eE
+> Game: https://lichess.org/mDrIc2eE (I am not either player)
 
 ## Results
 
