@@ -88,6 +88,10 @@ So that part isn't something I'm claiming I came up with. I found the project wh
 
 For my project, the target distribution is centered around the player's actual rating, with σ = 200.
 
+For ratings near the extreme ends (like a 450-rated player), a 200-point standard deviation naturally spills past the edge of the buckets. To handle this, I proportionally redistributed the cut-off probability mass back into the remaining buckets.
+
+Similarly, when extracting a single Elo point estimate from the predicted probabilities, I didn't just take a weighted sum across the buckets, which would have artificially dragged extreme ratings toward the middle. Instead, the point estimate is derived by inverting the distribution back to its underlying center.
+
 The model is then trained with KL divergence between that target distribution and the distribution predicted by the model.
 
 ## Experiments that didn't work
