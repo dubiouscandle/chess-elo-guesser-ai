@@ -29,7 +29,7 @@ On 27,000 unseen games with more than 30 half-moves:
 
 The model tends to systematically over-predict ratings, while under-predicting extreme highs. 
 
-I hypothesize that the reason this effect is greatest near the 400 to 700 Elo range is partially due to smurfing, but this remains to be proven formally. (Smurfing is when a higher rated player plays on a lower rated account).
+I hypothesize that the reason this effect is greatest near the 400 to 700 Elo range is mostly due to regression to the mean, but some other factors could include smurfing or cheaters being demoted (Smurfing is when a higher rated player plays on a lower rated account).
 
 Despite the noise of single-game evaluations, the dense central cluster tracks closely along the ideal y = x line, showing the model successfully learned a strong baseline correlation between move quality and player rating.
 
