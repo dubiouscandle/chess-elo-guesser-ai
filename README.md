@@ -24,7 +24,7 @@ On 27,000 unseen games with more than 30 half-moves:
 
 <img alt="image" src="Python/parity_plot.png" />
 
-> **Note:** The train/test split was performed at the game level, so players may appear in both sets. Therefore this evaluation measures generalization to unseen games, not necessarily unseen players.
+> **Note:** The test set was generated using games at least one year later from the training data. Therefore, this evaluation measures generalization to unseen games, not necessarily unseen players.
 > Exact numbers are in [stat_data_cleaned](https://github.com/dubiouscandle/chess-elo-guesser-ai/blob/main/Python/stat_data_cleaned).
 
 The model tends to systematically over-predict ratings, while under-predicting extreme highs. 
