@@ -128,7 +128,9 @@ The original PGNs were far too large to work with comfortably, so I spent a lot 
 
 I also made some decisions during preprocessing that seemed reasonable at the time and then later realized had thrown away information I needed.
 
-zstd being single-threaded for the part of the pipeline I was using also made some of this much more annoying than it needed to be.
+~~zstd being single-threaded for the part of the pipeline I was using also made some of this much more annoying than it needed to be.~~
+
+Update: Looking back at the Kotlin pipeline, zstd was completely innocent. The real bottleneck was me running chesslib's heavy PGN string parser sequentially on the main thread while the worker threads starved waiting to copy integers.
 
 At one point I also lost several hours to AMD GPU driver problems.
 
