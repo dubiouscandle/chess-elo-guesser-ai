@@ -130,7 +130,7 @@ I also made some decisions during preprocessing that seemed reasonable at the ti
 
 ~~zstd being single-threaded for the part of the pipeline I was using also made some of this much more annoying than it needed to be.~~
 
-Update: Looking back at the Kotlin pipeline, zstd was completely innocent. The real bottleneck was me running chesslib's heavy PGN string parser sequentially on the main thread while the worker threads starved waiting to copy integers.
+Update: Looking back at the Kotlin pipeline, zstd was completely innocent. The real bottleneck was me running chesslib's PGN string parser sequentially on the main thread. I thought that zstd was the bottleneck and not that.
 
 At one point I also lost several hours to AMD GPU driver problems.
 
@@ -144,15 +144,13 @@ Link: https://elo-guesser.dubiouscandle.com/
 
 My school blocked the domain anyway, so that whole thing was kind of pointless.
 
-The frontend is basic HTML and JavaScript. I also used a JavaScript library to call Kotlin functions, and a Kotlin library to load and run the PyTorch models.
-
-None of this was chosen because it was some carefully designed architecture. I mostly picked whatever let me get the thing working without making my life even worse.
-
 ## Android version
 
 There is also an Android version of the project.
 
 It works, but it isn't really optimized for older phones, so I wouldn't expect it to run particularly well on everything.
+
+I'm pretty sure it uses JavaScript library to call Kotlin functions, and a Kotlin library to load and run the PyTorch models. 
 
 The main reason I made it was because I wanted to see if I could actually get the model running outside of my computer.
 
