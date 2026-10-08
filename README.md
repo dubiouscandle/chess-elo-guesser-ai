@@ -65,7 +65,7 @@ This gives the model around 28 discrete rating ranges to distribute its probabil
 
 ## Model Input Philosophy
 
-**No Stockfish / Centipawn Loss:** This was also decided early for speed of iteration. From my personal observations, Stockfish can use 100% CPU and still take up to a few minutes to fully analyze a single game. Doing this across 2.4 million games on a home PC and without using cloud computing would have easily taken several weeks.
+**No Stockfish / Centipawn Loss:** This was decided early for speed of iteration. From my personal observations, Stockfish can use 100% CPU and still take up to a few minutes to fully analyze a single game. Doing this across 2.4 million games on a home PC and without using cloud computing would have easily taken several weeks.
 
 > Retroactive note: Inference on my final model takes around 5 seconds on my home PC. If I were to have added stockfish evaluations, it would probably have 10x-ed my runtime. (Both running all threads on CPU)
 
