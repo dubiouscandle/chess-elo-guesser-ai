@@ -65,10 +65,12 @@ This gives the model around 28 discrete rating ranges to distribute its probabil
 
 ## Model Input Philosophy
 
-**No Stockfish / Centipawn Loss:** High-Elo moves aren't always top engine moves, and low-Elo games aren't just random bad moves. They have distinct patterns (missing hanging pieces, weird pawn storms, uncoordinated pieces, or clean endgame technique). I wanted the network to learn what a 700 or an 1800 looks like from the board alone, not rely on an external engine to score move quality.
+**No Stockfish / Centipawn Loss:** This was also decided early for speed of iteration. From my personal observations, Stockfish can use 100% CPU and still take up to a few minutes to fully analyze a single game. Doing this across 2.4 million games on a home PC and without using cloud computing would have easily taken several weeks.
 
+> Retroactive note: Inference on my final model takes around 5 seconds on my home PC. If I were to have added stockfish evaluations, it would probably have 10x-ed my runtime. (Both running all threads on CPU)
 
 **No Clock Times:** I wanted to mimic the experience of Gotham Chess's Guess the Elo series. Also, because the model only requires raw board states and move coordinates, it works on any standard PGN file, including games transcribed from over-the-board play where clock data does not exist.
+
 
 ## Why a probability distribution?
 
