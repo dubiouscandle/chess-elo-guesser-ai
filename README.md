@@ -150,7 +150,7 @@ There is also an Android version of the project.
 
 It works, but it isn't really optimized for older phones, so I wouldn't expect it to run particularly well on everything.
 
-I'm pretty sure it uses JavaScript library to call Kotlin functions, and a Kotlin library to load and run the PyTorch models. 
+The frontend uses an Android WebView wrapper, and it uses a Javascript bridge to call a Kotlin library to load and run the PyTorch models. So Kottorch, and it runs on device so you can use it even when offline without pinging the server.
 
 The main reason I made it was because I wanted to see if I could actually get the model running outside of my computer.
 
