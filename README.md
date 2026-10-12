@@ -69,7 +69,7 @@ This gives the model around 28 discrete rating ranges to distribute its probabil
 
 Additionally, high-Elo moves aren't always top engine moves, and low-Elo games aren't just random bad moves. I wanted the network to learn what a 700 or an 1800 looks like from the board alone, not rely on an external engine to score move quality
 
-> Retroactive note: Inference on my final model takes around 5 seconds on my home PC. If I were to have added stockfish evaluations, it would probably have 10x-ed my runtime. (Both running all threads on CPU)
+> Retroactive note: Inference on my final model takes around 0.5 seconds on my home PC. If I were to have added stockfish evaluations, it would probably have 10x-ed or 100x-ed my runtime. (Both running all threads on CPU)
 
 **No Clock Times:** I wanted to mimic the experience of Gotham Chess's Guess the Elo series. Also, because the model only requires raw board states and move coordinates, it works on any standard PGN file, including games transcribed from over-the-board play where clock data does not exist.
 
