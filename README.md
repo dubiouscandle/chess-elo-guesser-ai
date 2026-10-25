@@ -6,9 +6,10 @@ The main idea is that instead of just giving one rating at the end of a game, th
 
 The project ended up becoming a lot bigger and messier than I originally planned. I spent a ridiculous amount of time dealing with PGN files, RAM, GPU drivers, model sizes, and trying things that did not work at all.
 
-But it eventually got to a point where it was actually pretty good, so here it is.
+But it eventually got to a point where it was actually pretty good, so here it is. 
 
-(Link: [elo-guesser.dubiouscandle.com](https://elo-guesser.dubiouscandle.com/))
+Also I made a small web-app for it: [elo-guesser.dubiouscandle.com](https://elo-guesser.dubiouscandle.com/)
+
 My school blocked the domain anyway after a week, so that whole thing was kind of pointless.
 
 ![Chess Elo Guesser Demo](CEG_DEMO.gif)
