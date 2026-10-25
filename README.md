@@ -4,9 +4,12 @@ This is a summer project where I tried to make a model that can guess a chess pl
 
 The main idea is that instead of just giving one rating at the end of a game, the model gives a probability distribution over rating ranges after every move. So you can actually watch the prediction change as the game goes on.
 
-The project ended up becoming a lot bigger and messier than I originally planned. I spent a ridiculous amount of time dealing with PGN files, RAM, GPU drivers, model sizes, and trying things that absolutely did not work.
+The project ended up becoming a lot bigger and messier than I originally planned. I spent a ridiculous amount of time dealing with PGN files, RAM, GPU drivers, model sizes, and trying things that did not work at all.
 
-But it eventually got to a point where it was actually pretty good, so here it is. (Link: [elo-guesser.dubiouscandle.com](https://elo-guesser.dubiouscandle.com/))
+But it eventually got to a point where it was actually pretty good, so here it is.
+
+(Link: [elo-guesser.dubiouscandle.com](https://elo-guesser.dubiouscandle.com/))
+My school blocked the domain anyway after a week, so that whole thing was kind of pointless.
 
 ![Chess Elo Guesser Demo](CEG_DEMO.gif)
 > Game: https://lichess.org/mDrIc2eE (I am not either player)
